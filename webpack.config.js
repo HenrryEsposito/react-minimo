@@ -10,10 +10,13 @@ module.exports = {
       template: "index.html",
     }),
   ],
+  resolve: {
+    extensions: [".ts", ".tsx", ".js"],
+  },
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.(ts|tsx|js)$/,
         exclude: /node_modules/,
         use: "babel-loader",
       },
