@@ -24,10 +24,10 @@ Por questões de organização decidi separar em branches diferentes a implement
 
 ## Particularidades
 
-Aqui deixo anotado uma particularidade dessa branch, como o uso do eslint está muito intrinsseco à IDE que vc vai usar, deixo algumas recomendações para o uso com o VSCode:
+Aqui deixo anotado uma particularidade dessa branch. Como o uso do ESlint está muito intrínseco à IDE que você vai usar, deixo algumas recomendações para o uso do ESlint com o VSCode:
 
 - Instale a extensão no VSCode: `dbaeumer.vscode-eslint`
-- Configure seu Workspace para usar o eslint da forma certa:
+- Configure seu Workspace para usar o ESlint da forma certa:
 ```json
 {
     "eslint.validate": [ "javascript", "javascriptreact", "html", "typescriptreact" ], // mostra erros no editor
