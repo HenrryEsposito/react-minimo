@@ -18,6 +18,9 @@ O Projeto React Mínimo propõe um retorno à essência do React. Nosso objetivo
 
 Acredito que essa abordagem pode proporcionar uma base sólida para os desenvolvedores iniciantes que desejam ter controle total sobre seu projeto. Com o Projeto React Mínimo, o desenvolvedor tem a liberdade de expandir e personalizar a aplicação conforme necessário, mantendo a estrutura do projeto enxuta e fácil de entender.
 
+## Branches
+
+Por questões de organização decidi separar em branches diferentes a implementação tanto do typescript quanto do eslint nesse projeto, pois como a intenção é manter o projeto o mais limpo possível essas duas adições podem ser totalmente opcionais deixando assim a branch `main` do projeto mostrando realmente a versão mais limpa possível.
 
 ## Como executar localmente
 
