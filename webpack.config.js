@@ -1,4 +1,5 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const ESLintPlugin = require('eslint-webpack-plugin');
 
 module.exports = {
   entry: "./src/app",
@@ -9,6 +10,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "index.html",
     }),
+    new ESLintPlugin(),
   ],
   resolve: {
     extensions: [".ts", ".tsx", ".js"],

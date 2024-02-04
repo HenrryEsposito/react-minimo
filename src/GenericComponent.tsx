@@ -1,15 +1,15 @@
-import React from "react";
+import React from 'react'
 
-function GenericComponent() {
+function GenericComponent (): JSX.Element {
   return (
     <button
       onClick={() => {
-        alert("Oi!");
+        alert('Oi!')
       }}
     >
-      Oi
+        Oi
     </button>
-  );
+  )
 }
 
-export default GenericComponent;
+export default GenericComponent
