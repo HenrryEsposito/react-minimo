@@ -22,6 +22,23 @@ Acredito que essa abordagem pode proporcionar uma base sólida para os desenvolv
 
 Por questões de organização decidi separar em branches diferentes a implementação tanto do typescript quanto do eslint nesse projeto, pois como a intenção é manter o projeto o mais limpo possível essas duas adições podem ser totalmente opcionais deixando assim a branch `master` do projeto mostrando realmente a versão mais limpa possível. Logo se está a procura de configurar seu projeto para usar typescript ou eslint dê uma olhada nas branches desse repositório.
 
+## Particularidades
+
+Aqui deixo anotado uma particularidade dessa branch, como o uso do eslint está muito intrinsseco à IDE que vc vai usar, deixo algumas recomendações para o uso com o VSCode:
+
+- Instale a extensão no VSCode: `dbaeumer.vscode-eslint`
+- Configure seu Workspace para usar o eslint da forma certa:
+```json
+{
+    "eslint.validate": [ "javascript", "javascriptreact", "html", "typescriptreact" ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "always"
+    },
+    "terminal.integrated.env.windows": {},
+    "cSpell.language": "en,pt-BR",
+}
+```
+
 ## Como executar localmente
 
 Siga as instruções abaixo para executar este projeto em sua máquina:
