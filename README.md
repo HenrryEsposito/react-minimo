@@ -30,12 +30,10 @@ Aqui deixo anotado uma particularidade dessa branch, como o uso do eslint está 
 - Configure seu Workspace para usar o eslint da forma certa:
 ```json
 {
-    "eslint.validate": [ "javascript", "javascriptreact", "html", "typescriptreact" ],
+    "eslint.validate": [ "javascript", "javascriptreact", "html", "typescriptreact" ], // mostra erros no editor
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": "always"
-    },
-    "terminal.integrated.env.windows": {},
-    "cSpell.language": "en,pt-BR",
+    } // corrigir erros ao salvar
 }
 ```
 
