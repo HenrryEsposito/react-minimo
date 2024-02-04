@@ -20,7 +20,7 @@ Acredito que essa abordagem pode proporcionar uma base sólida para os desenvolv
 
 ## Branches
 
-Por questões de organização decidi separar em branches diferentes a implementação tanto do typescript quanto do eslint nesse projeto, pois como a intenção é manter o projeto o mais limpo possível essas duas adições podem ser totalmente opcionais deixando assim a branch `main` do projeto mostrando realmente a versão mais limpa possível.
+Por questões de organização decidi separar em branches diferentes a implementação tanto do typescript quanto do eslint nesse projeto, pois como a intenção é manter o projeto o mais limpo possível essas duas adições podem ser totalmente opcionais deixando assim a branch `master` do projeto mostrando realmente a versão mais limpa possível. Logo se está a procura de configurar seu projeto para usar typescript ou eslint dê uma olhada nas branches desse repositório.
 
 ## Como executar localmente
 
